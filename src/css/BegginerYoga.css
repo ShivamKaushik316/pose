@@ -1,0 +1,39 @@
+.beg-container{
+    width: 100vw;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-row{
+    width: 100vw;
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.prgress-tracker{
+    width: 20rem;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2rem;
+    gap: 2rem;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.prog-bar-cont{
+    width: 80%;
+    height: 0.7rem;
+}
+
+.bar{
+    width: 29%;
+    height: 100%;
+    background-color: aqua
+}
